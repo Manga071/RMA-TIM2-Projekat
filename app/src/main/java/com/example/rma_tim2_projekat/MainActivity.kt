@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import com.example.rma_tim2_projekat.screens.LoginScreen
 import com.example.rma_tim2_projekat.screens.MainScreen
 import com.example.rma_tim2_projekat.ui.theme.RMATIM2ProjekatTheme
 
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainScreen()
+                    LoginScreen()
 
                 }
             }
